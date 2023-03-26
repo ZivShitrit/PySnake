@@ -24,7 +24,7 @@ class Snake:
     def __init__(self, parent_screen, length):
         self.length = length
         self.parent_screen = parent_screen
-        self.block = pygame.image.load("resource/block.jpg").convert()
+        self.block = pygame.image.load("resource/block.png").convert()
         self.x = [SIZE]*length
         self.y = [SIZE]*length
         self.direction = 'down'
